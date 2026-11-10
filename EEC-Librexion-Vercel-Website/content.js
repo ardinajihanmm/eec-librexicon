@@ -1,117 +1,125 @@
-/* EEC Librexion learning content. Edit this file to publish more lessons. */
-window.EEC_LESSONS = [
-  {
-    id:'greetings', number:'01', title:'Start a Conversation', subtitle:'Greetings & Introductions', category:'Everyday English', level:'Beginner', minutes:5, emoji:'👋', color:'lime',
-    intro:"The first few seconds of a conversation can feel awkward, especially when you're speaking English. Keep it simple. You don't need a complicated opening.",
-    secondIntro:'A friendly greeting and a simple introduction are often all you need to get started.',
-    groups:[
-      {title:'Casual greetings', items:[
-        ['Hey! How’s it going?','Friendly and natural.'],
-        ['How have you been?','Good when you haven’t seen someone for a while.'],
-        ['What’s up?','Very casual; usually used with friends.'],
-        ['Good to see you!','Use this when meeting someone you already know.'],
-        ['How’s your day going?','An easy way to start a conversation.']
-      ]},
-      {title:'Introducing yourself & others', items:[
-        ['Hi, I’m Raka. Nice to meet you.','A simple first introduction.'],
-        ['I’m currently studying Information Systems.','Share what you study.'],
-        ['Hey, I don’t think we’ve met before.','Natural when meeting someone new.'],
-        ['This is Sarah. She’s in my class.','Introduce a friend.']
-      ]}
-    ],
-    dialogue:[['A','Hey, I’m Raka. Nice to meet you.'],['B','Nice to meet you too!'],['A','What are you studying?'],['B','I’m studying Computer Engineering. How about you?']],
-    tip:'Don’t stop after saying your name. Add “How about you?” to keep the conversation going.', challenge:'Introduce yourself to someone, then ask what they study.'
-  },
-  {
-    id:'small-talk', number:'02', title:'Small Talk, Big Difference', subtitle:'Easy Topics & Showing Interest', category:'Everyday English', level:'Beginner', minutes:5, emoji:'☕', color:'peach',
-    intro:'Small talk isn’t meaningless. It’s often how conversations begin. You don’t have to talk about something deep; start with something simple and let the conversation develop naturally.',
-    secondIntro:'Showing interest in the other person is just as important as choosing a topic.',
-    groups:[
-      {title:'Easy topics: campus', items:[['How’s your class going?','Ask about their day at university.'],['Have you finished the assignment?','A familiar conversation starter.'],['Which class do you have next?','Easy to ask between classes.']]},
-      {title:'Easy topics: events & free time', items:[['Are you joining the event later?','Start a chat about campus activities.'],['How did you hear about this?','Find a shared connection.'],['What do you usually do on weekends?','Ask about free-time activities.'],['What kind of movies do you like?','A natural open-ended question.']]},
-      {title:'Show interest', items:[['Really?','Encourage them to say more.'],['That’s interesting.','Respond positively.'],['How come?','Ask informally about a reason.'],['What happened next?','Keep a story going.']]}
-    ],
-    dialogue:[['A','I started learning photography recently.'],['B','Oh, really? That’s cool. What kind of photography do you like?']],
-    tip:'The goal isn’t to impress people with your English. It’s to make the other person want to keep talking.', challenge:'Ask someone one question about campus life and one about their free time.'
-  },
-  {
-    id:'questions', number:'03', title:'Ask Better Questions', subtitle:'Asking & Answering Naturally', category:'Speaking Skills', level:'Beginner', minutes:5, emoji:'❔', color:'blue',
-    intro:'Good conversations usually come from good questions. Instead of only asking questions that can be answered with “yes” or “no,” try asking questions that invite people to share more.',
-    secondIntro:'You don’t need long answers either. Short, natural responses can keep things moving.',
-    groups:[
-      {title:'Ask more open questions', items:[['Instead of: Do you like music?','Try: What kind of music do you usually listen to?'],['What do you usually do after class?','Ask about habits.'],['Where did you get that?','Ask about a place or source.'],['Why did you choose this major?','Invite someone to share a reason.'],['How did you learn English?','Ask about a process or experience.']]},
-      {title:'Answer naturally', items:[['Yeah, I think so.','Gentle agreement.'],['Not really, to be honest.','A casual, honest answer.'],['I’m not sure yet.','When you haven’t decided.'],['It depends.','When the answer changes with the situation.'],['Actually, I prefer…','Share your preference.']]},
-      {title:'Ask a follow-up', items:[['What about you?','Return the question.'],['How about you?','Keep the exchange balanced.'],['What do you think?','Invite an opinion.']]}
-    ],
-    dialogue:[['A','What do you usually do after class?'],['B','I often go to the library. How about you?'],['A','I usually grab something to eat with friends.']],
-    tip:'A good question invites a story, not just a one-word answer.', challenge:'Turn one yes/no question into an open-ended question.'
-  },
-  {
-    id:'follow-ups', number:'04', title:'Don’t Let the Conversation Die', subtitle:'Keeping Conversations Going', category:'Speaking Skills', level:'Beginner', minutes:5, emoji:'💬', color:'lavender',
-    intro:'Sometimes you know English, but you don’t know what to say next. That’s normal. The easiest way to continue is to pick one detail from what the other person just said and ask about it.',
-    secondIntro:'A small follow-up can turn a short exchange into a real conversation.',
-    groups:[
-      {title:'Listen → Pick a detail → Ask', items:[['I went to Bandung last weekend.','Oh, nice! What did you do there?'],['I joined a competition.','Really? What kind of competition?'],['I’ve been learning Korean.','That’s interesting. What made you want to learn it?']]},
-      {title:'Useful follow-up phrases', items:[['Tell me more about that.','Invite more detail.'],['What was that like?','Ask about someone’s experience.'],['How did that happen?','Ask about the story behind an event.'],['What happened after that?','Keep the story going.'],['How did you get into it?','Ask how an interest began.']]},
-      {title:'Avoid one-word responses', items:[['Instead of: Oh.','Try: Oh, really? How was it?'],['Instead of: Nice.','Try: Nice! Was it your first time?']]}
-    ],
-    dialogue:[['A','I joined a competition last week.'],['B','Really? What kind of competition?'],['A','A public speaking competition.'],['B','That sounds exciting! How did it go?']],
-    tip:'Conversation is a two-way street: listen, respond, ask, and share.', challenge:'Use “What was that like?” the next time someone tells you about an experience.'
-  },
-  {
-    id:'opinions', number:'05', title:'Say What You Think', subtitle:'Expressing Opinions & Giving Reasons', category:'Campus Life', level:'Beginner', minutes:6, emoji:'✨', color:'yellow',
-    intro:'Sharing your opinion makes conversations more meaningful. Whether you’re discussing an event or working on a group project, knowing how to explain your thoughts helps others understand your perspective.',
-    secondIntro:'You don’t need complicated words. A clear opinion with a simple reason is enough.',
-    groups:[
-      {title:'Useful expressions', items:[['I think…','A simple way to share your thoughts.'],['In my opinion…','Express your personal point of view.'],['Personally, I prefer…','Talk about your preferences.'],['The reason is…','Explain why you think a certain way.']]},
-      {title:'Make your opinion stronger', note:'OPINION → REASON → EXAMPLE', items:[['Opinion','I think joining student organizations is beneficial.'],['Reason','Because they help us develop important skills.'],['Example','For example, organizing events can improve communication and teamwork.']]}
-    ],
-    dialogue:[['A','I think joining student organizations is beneficial because they help us develop important skills.'],['B','That’s interesting. What skills do you mean?'],['A','For example, teamwork and communication. What do you think about it?']],
-    tip:'Don’t just say what you think. Explain why, and invite others to share their opinions too.', challenge:'Choose a campus topic and share one opinion, one reason, and one example.'
-  },
-  {
-    id:'agree-disagree', number:'06', title:'Agree or Disagree?', subtitle:'Responding to Different Opinions', category:'Campus Life', level:'Beginner', minutes:5, emoji:'🤝', color:'peach',
-    intro:'Not everyone will share the same opinion, and that’s okay. Knowing how to agree or disagree politely helps you participate without making things awkward.',
-    secondIntro:'The key is to respect different perspectives.',
-    groups:[
-      {title:'When you agree', items:[['Exactly!','Shows strong agreement.'],['That’s a good point.','Acknowledges someone’s useful idea.'],['That makes sense.','Shows you understand their reasoning.']]},
-      {title:'When you disagree', items:[['I see your point, but…','Politely introduce a different opinion.'],['I’m not sure I agree.','Disagree without sounding rude.'],['What if we tried…?','Suggest an alternative.']]},
-      {title:'Common mistake', items:[['✗ I am agree with you.','✓ I agree with you.']]}
-    ],
-    dialogue:[['A','I think we should hold the meeting in the morning.'],['B','I see your point, but maybe the afternoon would be better since some members have classes.'],['A','That’s a good point. Let’s ask the others.']],
-    tip:'You can disagree with someone’s idea while still respecting their opinion.', challenge:'Practice politely disagreeing with a suggestion about an event schedule.'
-  },
-  {
-    id:'clarification', number:'07', title:'Wait, What Do You Mean?', subtitle:'Asking for Clarification & Help', category:'Campus Life', level:'Beginner', minutes:5, emoji:'🔎', color:'blue',
-    intro:'Sometimes you might not understand what someone is saying, and that’s completely normal. Instead of pretending to understand, ask questions.',
-    secondIntro:'Clarifying information and asking for help can prevent misunderstandings.',
-    groups:[
-      {title:'When you don’t understand', items:[['Sorry, could you say that again?','When you didn’t hear something clearly.'],['What do you mean by…?','Ask for an explanation of a word or idea.'],['So, you mean…?','Confirm that you understood correctly.']]},
-      {title:'When you need help', items:[['Could you help me with…?','A polite way to ask for assistance.'],['I’m having trouble with…','Explain what you’re struggling with.'],['Could you show me how to…?','Ask someone to demonstrate something.']]}
-    ],
-    dialogue:[['A','We need to finalize the proposal before Friday.'],['B','Sorry, what do you mean by “finalize”?'],['A','I mean we need to finish editing and reviewing it.'],['B','Oh, I see! Could you help me review my part?'],['A','Sure, no problem!']],
-    tip:'Asking for clarification doesn’t mean your English is bad. It shows that you’re listening and trying to understand.', challenge:'Practice asking for an explanation of one unfamiliar word.'
-  },
-  {
-    id:'group-discussions', number:'08', title:'Speak Up, Join In', subtitle:'Participating in Group Discussions', category:'Campus Life', level:'Beginner', minutes:6, emoji:'🙌', color:'lavender',
-    intro:'Group discussions can feel challenging, especially when everyone is sharing ideas quickly. You might have something to say but not know how to join in.',
-    secondIntro:'You don’t need a long speech to make a valuable contribution.',
-    groups:[
-      {title:'Useful expressions', items:[['Can I add something?','A polite way to join the conversation.'],['I’d like to share an idea.','Introduce a suggestion.'],['What if we tried…?','Suggest another possibility.'],['What do you think about this?','Invite others to share opinions.'],['So far, we’ve agreed on…','Summarize a discussion.']]},
-      {title:'An easy way to contribute', note:'LISTEN → SHARE → RESPOND → ASK', items:[['Listen first','Pay attention to what others have already said.'],['Share clearly','Offer one practical thought or suggestion.'],['Invite a response','Give others space to respond.']]}
-    ],
-    dialogue:[['A','I think we should promote the event on Instagram.'],['B','That’s a good idea!'],['C','Can I add something? Maybe we could also share it through student organizations.'],['A','That sounds great! Let’s do both.']],
-    tip:'A good discussion isn’t about who talks the most. One clear idea can be more valuable than a long explanation.', challenge:'Use “Can I add something?” to share one idea in your next group discussion.'
-  },
-  {
-    id:'ending', number:'09', title:'Keep Talking, Keep Growing', subtitle:'Ending Conversations & Putting English Into Practice', category:'Everyday English', level:'Beginner', minutes:5, emoji:'🌱', color:'lime',
-    intro:'Every conversation has a beginning and an ending. Knowing how to end one naturally is just as important as knowing how to start it.',
-    secondIntro:'A friendly closing helps you leave a positive impression.',
-    groups:[
-      {title:'Ending a conversation naturally', items:[['It was nice talking to you.','A friendly way to end a conversation.'],['Anyway, I should get going.','Use this when you need to leave.'],['Let’s catch up sometime!','Suggest talking again later.'],['See you around!','A casual, friendly goodbye.']]},
-      {title:'Now it’s your turn', items:[['Start a conversation','Greet someone and ask a simple question.'],['Keep it going','Ask a follow-up instead of giving a one-word response.'],['Share your thoughts','Express an opinion and explain why.']]}
-    ],
-    dialogue:[['A','Anyway, I should get going. I have a class in ten minutes.'],['B','No worries! It was nice talking to you.'],['A','You too! See you around!']],
-    tip:'You don’t need perfect grammar. Confidence grows through practice, not perfection. Keep talking. Keep learning. Keep growing.', challenge:'Try one new English expression in a real conversation today.'
-  }
-];
+/*
+ * EEC Librexion Practice Lab
+ * To edit questions: modify the objects in this file, save, and push to GitHub.
+ * Question types: choice (answer is the correct option index), fill (answer is a string or array).
+ * Each question has its own explanation, shown immediately after submission.
+ * All exercises were created separately from the Practical English Survival Guide booklet.
+ */
+window.EEC_CONTENT = {
+  courses: [
+    {
+      id:'grammar', number:'01', title:'Grammar in Context', short:'Make grammar decisions that change meaning.', category:'Language accuracy', level:'B2 to C1', duration:'8 questions', icon:'layers', accent:'mint', tags:['Conditionals','Inversion','Modals'],
+      introduction:'Advanced grammar is less about memorizing a rule and more about choosing the form that expresses the exact meaning. Work through consequences, certainty, emphasis, and time relationships.',
+      notes:[
+        {title:'Mixed conditionals',body:'A past event can have a present result: “If I had prepared earlier, I would be less stressed now.” The if-clause refers to the past; the result refers to the present.'},
+        {title:'Inversion for emphasis',body:'After restrictive adverbials such as “Not only”, “Rarely”, and “Under no circumstances”, formal English often uses auxiliary-subject inversion.'},
+        {title:'Degrees of certainty',body:'“Must have” suggests a strong conclusion about the past. “Might have” expresses possibility. “Should have” often expresses criticism or regret.'}
+      ],
+      questions:[
+        {id:'g1',type:'choice',skill:'Mixed conditionals',difficulty:'Hard',prompt:'The proposal was rejected last month. If we ______ the evidence more clearly, we would have a stronger position now.',options:['presented','had presented','would present','have presented'],answer:1,explanation:'“If we had presented” describes an unreal past action. “Would have” in the main clause describes its imagined effect now. This is a mixed conditional.'},
+        {id:'g2',type:'choice',skill:'Inversion',difficulty:'Hard',prompt:'Choose the sentence that uses formal inversion correctly.',options:['Rarely I have seen such detailed feedback.','Rarely have I seen such detailed feedback.','Rarely have seen I such detailed feedback.','Rarely did I have seen such detailed feedback.'],answer:1,explanation:'After “Rarely” at the beginning of the sentence, invert the auxiliary and subject: “Rarely have I seen ...”'},
+        {id:'g3',type:'choice',skill:'Past modal deduction',difficulty:'Medium',prompt:'The room is empty and the lights are off. They ______ the meeting earlier than planned, but I am not certain.',options:['must finish','might have finished','should finish','cannot finish'],answer:1,explanation:'“Might have + past participle” expresses an uncertain possibility about a completed past action.'},
+        {id:'g4',type:'fill',skill:'Subjunctive',difficulty:'Hard',prompt:'Complete the sentence with ONE word: “The supervisor recommended that every draft ___ reviewed before publication.”',answer:['be'],hint:'Use the base form of a verb in the mandative subjunctive.',explanation:'After formal recommendations, English can use “that + subject + base verb”: “that every draft be reviewed.”'},
+        {id:'g5',type:'choice',skill:'Reduced clauses',difficulty:'Hard',prompt:'Choose the most concise grammatically correct revision: “The students who were selected for the internship attended the briefing.”',options:['The students selecting for the internship attended the briefing.','The students selected for the internship attended the briefing.','The students were selected for the internship attended the briefing.','Selected the students for the internship attended the briefing.'],answer:1,explanation:'A passive relative clause (“who were selected”) can be reduced to a past-participle phrase (“selected”).'},
+        {id:'g6',type:'choice',skill:'Unreal situations',difficulty:'Medium',prompt:'Choose the best completion: “I wish I ______ the instructions more carefully before starting the test.”',options:['read','had read','would read','am reading'],answer:1,explanation:'“Wish + past perfect” expresses regret about something that did not happen in the past.'},
+        {id:'g7',type:'fill',skill:'Inversion',difficulty:'Hard',prompt:'Complete with ONE word: “Not only ___ the team meet the deadline, but it also improved the final design.”',answer:['did'],hint:'Use the auxiliary needed to invert a simple past verb.',explanation:'“Not only did the team meet ...” is the correct inversion. The main verb stays in its base form (“meet”).'},
+        {id:'g8',type:'choice',skill:'Meaning and tense',difficulty:'Hard',prompt:'Which sentence means the speaker started working here in 2023 and still works here?',options:['I worked here since 2023.','I have been working here since 2023.','I had worked here since 2023.','I will have worked here since 2023.'],answer:1,explanation:'The present perfect continuous links an activity that began in the past with the present: “have been working ... since 2023.”'}
+      ]
+    },
+    {
+      id:'vocabulary', number:'02', title:'Vocabulary Precision', short:'Choose the word that fits the meaning and context.', category:'Word choice', level:'B2 to C1', duration:'8 questions', icon:'target', accent:'lavender', tags:['Collocations','Register','Nuance'],
+      introduction:'Strong vocabulary is not about using the longest word. It is about using the right combination of words, selecting an appropriate level of formality, and avoiding nearly correct expressions.',
+      notes:[
+        {title:'Collocations matter',body:'We “draw a conclusion”, “raise a concern”, and “meet a deadline”. A grammatically possible combination is not always the natural one.'},
+        {title:'Meaning changes with context',body:'“Economic” relates to the economy; “economical” means not wasteful. Their meanings overlap less than they look.'},
+        {title:'Match your register',body:'“Put off the meeting” is common in conversation; “postpone the meeting” often suits formal updates. Neither is universally better.'}
+      ],
+      questions:[
+        {id:'v1',type:'choice',skill:'Collocations',difficulty:'Medium',prompt:'We need more evidence before we can ______ a reliable conclusion.',options:['make up','draw','produce up','take out'],answer:1,explanation:'“Draw a conclusion” is a standard collocation, especially in analytical and academic writing.'},
+        {id:'v2',type:'choice',skill:'Confusable words',difficulty:'Hard',prompt:'The new public transport plan could have a positive ______ on student mobility.',options:['affect','effect','effective','affection'],answer:1,explanation:'“Effect” is the noun meaning result or impact. “Affect” is most commonly a verb.'},
+        {id:'v3',type:'choice',skill:'Professional register',difficulty:'Medium',prompt:'Which sentence is most appropriate for a formal project update?',options:['We messed up the schedule, sorry.','The schedule got kinda weird.','The schedule has been revised due to unforeseen delays.','The schedule is totally broken.'],answer:2,explanation:'This version is precise and appropriately formal. It communicates the change without overly casual wording.'},
+        {id:'v4',type:'fill',skill:'Fixed expressions',difficulty:'Hard',prompt:'Complete with ONE word: “Please take these constraints into ___ when preparing the budget.”',answer:['account','consideration'],hint:'Think of the phrase “take into ...”.',explanation:'“Take into account” (or “take into consideration”) means to consider relevant information before deciding.'},
+        {id:'v5',type:'choice',skill:'Nuance',difficulty:'Hard',prompt:'A policy that saves money and avoids unnecessary waste is best described as ______.',options:['economic','economical','economics','economist'],answer:1,explanation:'“Economical” means efficient and not wasteful. “Economic” relates to the economy.'},
+        {id:'v6',type:'choice',skill:'Word partnerships',difficulty:'Medium',prompt:'The team decided to ______ concerns about the timeline before committing to the launch date.',options:['raise','lift up','grow','take on up'],answer:0,explanation:'We commonly “raise concerns” to bring a possible problem to someone’s attention.'},
+        {id:'v7',type:'fill',skill:'Formal verbs',difficulty:'Medium',prompt:'Complete with ONE word: “Due to a scheduling conflict, we need to ___ the interview until Friday.”',answer:['postpone','reschedule'],hint:'Use a verb meaning move to a later date.',explanation:'“Postpone” means delay an event to a later time. “Reschedule” is also acceptable if the date is changed.'},
+        {id:'v8',type:'choice',skill:'Precision',difficulty:'Hard',prompt:'Which statement is appropriately cautious when the data are limited?',options:['This proves the program always works.','The results suggest a possible improvement, but more evidence is needed.','The program never fails.','There is no reason to examine the results further.'],answer:1,explanation:'A cautious claim distinguishes evidence from certainty. “Suggest” and the stated limitation avoid overgeneralization.'}
+      ]
+    },
+    {
+      id:'reading', number:'03', title:'Reading Between the Lines', short:'Understand implications, assumptions, and author intent.', category:'Critical reading', level:'B2 to C1', duration:'8 questions', icon:'book', accent:'amber', tags:['Inference','Tone','Evidence'],
+      introduction:'Good readers do more than identify facts. They distinguish what a passage says, what it implies, and what remains unsupported. These original passages are written for practice.',
+      notes:[
+        {title:'Inference is not imagination',body:'Choose what is supported by the passage, even if the answer is not directly stated. Do not introduce unrelated facts.'},
+        {title:'Notice qualifiers',body:'Words like “some”, “may”, “primarily”, and “however” can change an author’s entire claim.'},
+        {title:'Separate evidence from opinion',body:'A small survey can indicate a trend, but it rarely proves that the trend applies everywhere.'}
+      ],
+      questions:[
+        {id:'r1',type:'choice',skill:'Main idea',difficulty:'Medium',passage:'A university library extended its opening hours during final examinations. Attendance rose sharply in the first week, but only slightly in the second. Staff noted that most visitors arrived after 7 p.m., while the additional morning hours remained relatively quiet.',prompt:'What conclusion is most strongly supported?',options:['All extended hours were equally useful.','Later evening access appears more valuable than extra morning access.','Students no longer use the library during the day.','The extended schedule should be eliminated.'],answer:1,explanation:'The passage contrasts heavy evening attendance with quiet extra morning hours. It does not establish that students never visit in daytime.'},
+        {id:'r2',type:'choice',skill:'Inference',difficulty:'Hard',passage:'A campus app introduced reminders to improve assignment submission rates. Submissions increased, but the pilot also coincided with a new attendance policy and additional teaching assistants. The team called the initial results promising while recommending a controlled follow-up study.',prompt:'Why do the researchers recommend a controlled study?',options:['The app certainly lowered submissions.','Multiple changes occurred, making it difficult to attribute the improvement to the app alone.','The attendance policy was not implemented.','The researchers know that reminders never work.'],answer:1,explanation:'Several interventions changed at once. A controlled study helps isolate the app’s contribution rather than assuming causation.'},
+        {id:'r3',type:'choice',skill:'Author tone',difficulty:'Medium',passage:'The proposed recycling campaign is appealing in theory. However, the plan offers few details about collection points, sorting procedures, or the resources needed to maintain them. These omissions should be addressed before the campaign is launched.',prompt:'How would you describe the author’s attitude?',options:['Unconditionally enthusiastic','Cautiously critical','Completely indifferent','Hostile toward recycling'],answer:1,explanation:'The author likes the general idea but questions its readiness. This is measured criticism, not opposition to recycling.'},
+        {id:'r4',type:'choice',skill:'Purpose',difficulty:'Hard',passage:'Despite receiving fewer applications this year, the internship program attracted candidates with stronger technical portfolios. The recruitment team therefore recommends revising its success metric, which currently rewards application volume alone.',prompt:'What is the main purpose of the passage?',options:['To argue that technical portfolios are irrelevant','To recommend evaluating recruitment using quality as well as quantity','To announce that the internship program is ending','To suggest removing all selection criteria'],answer:1,explanation:'The passage contrasts application volume with candidate quality to justify revising an overly narrow success metric.'},
+        {id:'r5',type:'choice',skill:'Unsupported claim',difficulty:'Hard',passage:'In a survey of 80 volunteers, most respondents preferred workshops shorter than 90 minutes. Researchers noted that the sample was drawn from students already active in campus organizations.',prompt:'Which claim is NOT justified by the evidence?',options:['The surveyed students mostly preferred shorter workshops.','The sample consisted of 80 volunteers.','All university students prefer workshops shorter than 90 minutes.','Participants were already involved in campus organizations.'],answer:2,explanation:'A convenience sample of 80 active student volunteers cannot justify a universal claim about all university students.'},
+        {id:'r6',type:'choice',skill:'Contrast signal',difficulty:'Medium',passage:'The prototype performed well in laboratory tests. Nevertheless, the team postponed its public demonstration because the device failed repeatedly under outdoor humidity.',prompt:'What does “Nevertheless” signal?',options:['Cause','Contrast','Example','Chronological sequence'],answer:1,explanation:'“Nevertheless” marks contrast between positive laboratory performance and the decision to postpone demonstration.'},
+        {id:'r7',type:'choice',skill:'Implication',difficulty:'Hard',passage:'An instructor allowed students to use AI tools when drafting reports, provided they documented their use and verified every factual claim. Reports without disclosures were returned for revision, even when the writing itself was strong.',prompt:'What principle is the instructor emphasizing?',options:['AI-generated writing is always unacceptable.','Transparency and verification are part of responsible academic work.','Writing quality has no importance.','Students are forbidden from using external resources.'],answer:1,explanation:'The policy permits AI tools with clear disclosure and fact-checking. The rule concerns responsible use, not a blanket ban.'},
+        {id:'r8',type:'fill',skill:'Text structure',difficulty:'Medium',passage:'Several teams proposed moving the deadline. The coordinator acknowledged their concerns. However, she maintained the original date and offered additional review sessions instead.',prompt:'Complete with ONE word: The word “However” introduces a ___.',answer:['contrast','contradiction'],hint:'Think of an idea that differs from what came before.',explanation:'“However” signals contrast. The coordinator recognizes concerns but makes a different decision.'}
+      ]
+    },
+    {
+      id:'writing', number:'04', title:'Academic Writing Studio', short:'Edit sentences for clarity, logic, and credibility.', category:'Writing skills', level:'B2 to C1', duration:'8 questions', icon:'pen', accent:'blue', tags:['Clarity','Hedging','Cohesion'],
+      introduction:'Academic writing rewards careful reasoning, not unnecessary complexity. These tasks focus on clarity, logical relationships, precise claims, and ethical paraphrasing.',
+      notes:[
+        {title:'Use cautious claims',body:'When evidence is limited, “may indicate” is usually safer than “proves”. Match the strength of your language to the strength of your evidence.'},
+        {title:'Make connections explicit',body:'“However” signals contrast. “Therefore” indicates consequence. “For instance” introduces an example. A connector should reflect the relationship between ideas.'},
+        {title:'Paraphrase with understanding',body:'Rephrase the underlying idea and its structure. Replacing a few words with synonyms does not automatically constitute an original paraphrase. Cite the source where appropriate.'}
+      ],
+      questions:[
+        {id:'w1',type:'choice',skill:'Conciseness',difficulty:'Medium',prompt:'Choose the clearest version of this sentence: “Due to the fact that the experiment was unsuccessful, it was necessary for the team to repeat the experiment again.”',options:['As a result of the experiment not being successful, repetition again was necessary.','Because the experiment failed, the team had to repeat it.','Because of the experiment, the team unsuccessfully repeated again.','The team again was in need of experimental repetition.'],answer:1,explanation:'The revised sentence replaces “due to the fact that” with “because” and removes unnecessary repetition.'},
+        {id:'w2',type:'choice',skill:'Logical transitions',difficulty:'Medium',prompt:'The first approach requires little funding. ______, it would take twice as long to implement.',options:['For example','Likewise','However','Therefore'],answer:2,explanation:'The second sentence introduces a disadvantage that contrasts with the first benefit, so “However” fits.'},
+        {id:'w3',type:'choice',skill:'Academic caution',difficulty:'Hard',prompt:'A study involving 22 participants reports a correlation. Which conclusion is most appropriate?',options:['The findings prove that the method causes improvement for everyone.','The findings suggest an association, although further research is needed.','The method will always cause the same outcome.','The results eliminate every alternative explanation.'],answer:1,explanation:'Correlation in a small study does not establish causality or universal effects. Cautious wording reflects the evidence.'},
+        {id:'w4',type:'fill',skill:'Connectors',difficulty:'Medium',prompt:'Complete with ONE word: “The sample was small; ___, the findings should be interpreted cautiously.”',answer:['therefore','thus','hence'],hint:'The second clause is a consequence of the first.',explanation:'“Therefore”, “thus”, or “hence” introduces a logical consequence. The semicolon supports the transition.'},
+        {id:'w5',type:'choice',skill:'Ethical paraphrasing',difficulty:'Hard',prompt:'Which practice best describes responsible paraphrasing?',options:['Replacing a few words from a source and omitting the citation','Restating the idea in your own structure and citing the original source','Copying a paragraph if it is freely available online','Removing the author’s name while keeping their exact wording'],answer:1,explanation:'An effective paraphrase changes the expression of the idea, retains its meaning, and acknowledges the source.'},
+        {id:'w6',type:'choice',skill:'Parallel structure',difficulty:'Medium',prompt:'Select the grammatically parallel sentence.',options:['The workshop aims to improve reading, writing, and how to speak confidently.','The workshop aims to improve reading, writing, and speaking.','The workshop aims to improve reading, to write, and speaking.','The workshop aims improving reading, writing, and speak.'],answer:1,explanation:'Parallel elements should follow the same grammatical pattern: “reading, writing, and speaking”.'},
+        {id:'w7',type:'choice',skill:'Ambiguity',difficulty:'Hard',prompt:'Which revision removes ambiguity from “After reviewing the report, several errors were found”?',options:['After reviewing the report, several errors appeared.','Several errors were found after reviewing the report.','After reviewing the report, the editor found several errors.','After the report was reviewing, errors found.'],answer:2,explanation:'The original sentence has a dangling modifier. Naming “the editor” clarifies who reviewed the report.'},
+        {id:'w8',type:'fill',skill:'Word form',difficulty:'Hard',prompt:'Complete with ONE word: “The evidence is not sufficiently ___ to support that conclusion.”',answer:['robust','strong','convincing','reliable'],hint:'Choose an adjective describing the quality of evidence.',explanation:'“Robust” and the other accepted adjectives describe evidence strong enough to support a claim. “Sufficiently” modifies an adjective.'}
+      ]
+    },
+    {
+      id:'situations', number:'05', title:'Real-World Decisions', short:'Respond to difficult campus and workplace situations.', category:'Applied communication', level:'B2 to C1', duration:'8 questions', icon:'briefcase', accent:'pink', tags:['Email','Negotiation','Feedback'],
+      introduction:'Professional English is about decisions as much as sentences. These scenarios test how well you communicate delays, request evidence, negotiate priorities, and handle disagreement under pressure.',
+      notes:[
+        {title:'Be clear without being harsh',body:'A strong update states what happened, the impact, and the next action. Vague apologies alone rarely solve a problem.'},
+        {title:'Make requests actionable',body:'Instead of asking “Any news?”, specify the document, the decision you need, and when you need it.'},
+        {title:'Use evidence, not empty confidence',body:'In an interview or project report, connect a claim about your skill to an action and a measurable result, if one is available.'}
+      ],
+      questions:[
+        {id:'s1',type:'choice',skill:'Deadline negotiation',difficulty:'Hard',prompt:'You cannot finish a report by Friday because key data will arrive on Monday. Which message is most effective?',options:['I cannot do it. Please understand.','The data is late, so the deadline is impossible.','The required data is expected Monday. I can submit an outline Friday and the complete report Tuesday. Would that work?','I will send something whenever I can.'],answer:2,explanation:'This response states the constraint and offers a specific alternative, allowing the recipient to make an informed decision.'},
+        {id:'s2',type:'choice',skill:'Constructive feedback',difficulty:'Medium',prompt:'A teammate’s presentation contains several unsupported statistics. What should you say?',options:['Your slides are clearly wrong.','Could we check the sources for these figures before presenting them?','Everyone can tell these numbers are fake.','Let’s ignore the statistics and hope for the best.'],answer:1,explanation:'The response focuses on evidence and a concrete action instead of attacking the teammate.'},
+        {id:'s3',type:'choice',skill:'Professional email',difficulty:'Medium',prompt:'Which email subject line is clearest for requesting a meeting about internship requirements?',options:['Important!!!','Question','Request for Meeting: Internship Requirements','Hello sir please read this'],answer:2,explanation:'A useful subject line communicates both the action and the topic without unnecessary urgency.'},
+        {id:'s4',type:'fill',skill:'Polite request',difficulty:'Medium',prompt:'Complete with ONE word: “Would you ___ sharing the revised timeline by Thursday?”',answer:['mind'],hint:'Use the expression “Would you ... + -ing”.',explanation:'“Would you mind + verb-ing” forms a polite request. The verb after “mind” takes the -ing form.'},
+        {id:'s5',type:'choice',skill:'Interview evidence',difficulty:'Hard',prompt:'An interviewer asks for an example of leadership. Which answer provides the strongest evidence?',options:['I have always been a natural leader.','People say I am good at leadership.','I coordinated a six-person team, reorganized task assignments, and delivered the event plan two days early.','I believe leadership is very important.'],answer:2,explanation:'Specific actions and outcomes support a skill claim. This follows the logic of an evidence-based interview response.'},
+        {id:'s6',type:'choice',skill:'Meeting communication',difficulty:'Hard',prompt:'A project discussion is going in circles. Which intervention is most productive?',options:['We have discussed this for too long. Stop talking.','Let’s summarize the two options, identify the remaining question, and agree on who will decide.','I think we should ignore everyone else.','This issue is not my problem.'],answer:1,explanation:'Summarizing options and naming the decision process turns an unproductive discussion into an actionable one.'},
+        {id:'s7',type:'choice',skill:'Escalation',difficulty:'Hard',prompt:'A critical dependency is blocking your group project, but nobody has responded for three days. What is the best follow-up?',options:['Why do you never reply?','Just checking in.','I’m following up on the approval needed for Section B. Without it, we may miss Friday’s review. Could you confirm by 3 p.m. tomorrow?','I guess we should cancel everything.'],answer:2,explanation:'The message identifies the pending item, consequence, and a reasonable request with a clear deadline.'},
+        {id:'s8',type:'fill',skill:'Professional tone',difficulty:'Hard',prompt:'Complete with ONE word: “I would ___ it if you could review the attachment before our meeting.”',answer:['appreciate'],hint:'Use a polite verb that expresses gratitude.',explanation:'“I would appreciate it if ...” is a common polite expression for requesting assistance.'}
+      ]
+    },
+    {
+      id:'toefl', number:'06', title:'Test-Style Challenge', short:'Practice structure, meaning, and academic reading.', category:'Exam-style practice', level:'B2 to C1', duration:'8 questions', icon:'graduation', accent:'lime', tags:['Structure','Reading','Accuracy'],
+      introduction:'Try independently written exam-style questions that reward careful grammar, vocabulary, and reading. These are practice items, not official TOEFL questions.',
+      notes:[
+        {title:'Find the grammatical core',body:'In long sentences, identify the subject and main verb before getting distracted by modifiers or dependent clauses.'},
+        {title:'Watch for comparison',body:'Structures such as “the more ..., the more ...” require parallel comparative forms.'},
+        {title:'Use context clues',body:'On vocabulary questions, test each option against the sentence’s tone and meaning rather than relying only on a memorized definition.'}
+      ],
+      questions:[
+        {id:'t1',type:'choice',skill:'Structure',difficulty:'Hard',prompt:'______ the results were unexpected, the research team repeated the analysis before publishing.',options:['Despite','Although','In spite','Because of'],answer:1,explanation:'“Although” introduces a full clause with subject and verb. “Despite” and “because of” generally introduce noun phrases, not full finite clauses.'},
+        {id:'t2',type:'choice',skill:'Subject-verb agreement',difficulty:'Medium',prompt:'Neither the instructor nor the students ______ aware of the revised deadline.',options:['was','were','is','be'],answer:1,explanation:'With “neither ... nor”, the verb often agrees with the nearest subject. “Students” is plural, so “were” is appropriate.'},
+        {id:'t3',type:'choice',skill:'Parallel comparison',difficulty:'Hard',prompt:'Choose the correct sentence.',options:['The more carefully the data are checked, the reliable the results become.','The more carefully the data are checked, the more reliable the results become.','More carefully the data checked, more reliable the results.','The carefully data are checked, the results more reliable become.'],answer:1,explanation:'The correlative comparative construction is “the more ..., the more ...” and takes appropriately formed comparatives.'},
+        {id:'t4',type:'fill',skill:'Conjunction',difficulty:'Medium',prompt:'Complete with ONE word: “The survey was distributed online, ___ it reached students across several campuses.”',answer:['and'],hint:'A coordinating conjunction can join two independent clauses.',explanation:'“And” coordinates the two related independent clauses. The comma before it is appropriate here.'},
+        {id:'t5',type:'choice',skill:'Academic vocabulary',difficulty:'Hard',prompt:'The findings were described as “preliminary”. What is the closest meaning in this context?',options:['Final and unquestionable','Early and subject to revision','Completely irrelevant','Hidden from publication'],answer:1,explanation:'“Preliminary” means initial or not yet final. Such findings may change after further analysis.'},
+        {id:'t6',type:'choice',skill:'Sentence structure',difficulty:'Hard',prompt:'Choose the sentence with a complete grammatical structure.',options:['Because the experiment required additional funding.','The equipment, which was delivered last week.','The committee approved the revised budget after reviewing the proposal.','Although the participants attended the briefing.'],answer:2,explanation:'Only this option has a complete independent clause. The other options are dependent fragments.'},
+        {id:'t7',type:'choice',skill:'Reading inference',difficulty:'Hard',passage:'Researchers observed that participants who took short breaks often completed tasks more accurately. However, they cautioned that the observations did not establish whether the breaks caused the improvement.',prompt:'Which conclusion is supported?',options:['Breaks were proven to increase accuracy.','The observed association does not necessarily demonstrate causation.','Accuracy always falls when participants take breaks.','The study measured no difference at all.'],answer:1,explanation:'The passage explicitly cautions against inferring a causal effect from an observed association.'},
+        {id:'t8',type:'fill',skill:'Word form',difficulty:'Hard',prompt:'Complete with ONE word: “The report offers a detailed ___ of the project’s environmental impact.”',answer:['analysis','assessment','evaluation'],hint:'Use a noun meaning careful examination.',explanation:'“Analysis”, “assessment”, and “evaluation” are nouns that naturally complete the phrase “a detailed ... of”.'}
+      ]
+    }
+  ]
+};

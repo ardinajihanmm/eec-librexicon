@@ -1,49 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#183d31" />
-  <meta name="description" content="EEC Librexion — practical English mini lessons for real-life conversations, with expressions, dialogues, and practice." />
-  <title>EEC Librexion · Practical English Survival Guide</title>
-  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="./style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#143140">
+  <meta name="description" content="EEC Librexion Practice Lab. Advanced English exercises, realistic scenarios, and detailed answer explanations.">
+  <title>EEC Librexion | Practice Lab</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="vendor/qr.js" defer></script>
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
 </head>
 <body>
-  <div class="site-shell">
-    <header class="site-header">
-      <a class="brand" href="#home" aria-label="EEC Librexion home">
-        <span class="brand-icon" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
-        <span class="brand-copy"><strong>EEC <span>Librexion</span></strong><small>ENGINEERING ENGLISH CLUB</small></span>
-      </a>
-      <nav class="main-nav" aria-label="Main navigation">
-        <a href="#home" data-nav="home">Home</a>
-        <a href="#materials" data-nav="materials">Materials</a>
-        <a href="#practice" data-nav="practice">Quick practice</a>
-      </nav>
-      <button id="shareBtn" class="button button-dark header-share" type="button"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10v10.5h17V10M12 15V2.5m0 0L7.5 7m4.5-4.5L16.5 7"/></svg><span>Share / QR</span></button>
-      <button id="mobileMenuBtn" class="mobile-menu" type="button" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
-    </header>
-    <div id="mobileNav" class="mobile-nav" hidden>
-      <a href="#home">Home</a><a href="#materials">Materials</a><a href="#practice">Quick practice</a>
-      <button type="button" id="mobileShareBtn">Share / QR code</button>
-    </div>
-    <main id="app" tabindex="-1"></main>
-    <footer class="footer"><div><strong>EEC Librexion</strong><span>Learn it. Say it. Use it.</span></div><p>Created for English learners by the Education Department · Engineering English Club</p><span>© <span id="year"></span> EEC</span></footer>
-  </div>
-  <div class="modal-backdrop" id="shareModal" hidden>
-    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="shareTitle">
-      <button class="modal-close" type="button" id="closeShare" aria-label="Close">×</button>
-      <span class="eyebrow">SHARE THE LEARNING</span>
-      <h2 id="shareTitle">Scan, learn, repeat.</h2>
-      <p>Share the EEC Librexion learning library with your friends.</p>
-      <div class="qr-holder"><canvas id="qrCanvas" width="248" height="248" aria-label="QR code for this website"></canvas><p id="qrStatus" class="qr-status"></p></div>
-      <div class="share-url" id="shareUrl"></div>
-      <div class="modal-actions"><button id="copyLink" class="button button-outline" type="button">Copy website link</button><button id="downloadQr" class="button button-dark" type="button">Download QR</button></div>
-    </div>
-  </div>
-  <script src="./vendor/qr.js"></script>
-  <script src="./content.js"></script>
-  <script src="./app.js"></script>
+  <div id="app"><div class="boot"><span class="boot-icon">E</span><p>Loading Practice Lab...</p></div></div>
+  <noscript>This website needs JavaScript enabled to run the interactive exercises.</noscript>
 </body>
 </html>
